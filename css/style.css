@@ -77,25 +77,3 @@ nav a:hover {
 
 }
 
-.back-to-top {
-    background: #fff;
-    cursor: pointer;
-   
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-   
-    line-height: 0;
-   
-    visibility: hidden;
-    opacity: 0;
-   
-    transition: 0.3s;
-    transform: translateY(100%);
-   }
-   
-   .back-to-top.show {
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0);
-   }
